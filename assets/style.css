@@ -1,0 +1,92 @@
+/* =========================
+   DASHBOARD EJECUTIVO 2026
+========================= */
+
+/* Fondo */
+
+.stApp {
+    background-color: #F8FAFC;
+}
+
+/* Sidebar */
+
+[data-testid="stSidebar"] {
+    background-color: #FFFFFF;
+    border-right: 1px solid #E2E8F0;
+}
+
+[data-testid="stSidebar"] * {
+    color: #0F172A !important;
+}
+
+/* Títulos */
+
+h1 {
+    color: #0F172A !important;
+    font-weight: 800 !important;
+}
+
+h2,h3 {
+    color: #334155 !important;
+}
+
+/* KPIs */
+
+[data-testid="metric-container"] {
+
+    background-color: white;
+
+    border-radius: 20px;
+
+    padding: 20px;
+
+    border: 1px solid #E2E8F0;
+
+    box-shadow:
+    0 4px 6px rgba(0,0,0,0.05);
+}
+
+/* Dataframes */
+
+[data-testid="stDataFrame"] {
+
+    border-radius: 20px;
+
+    overflow: hidden;
+
+    border: 1px solid #E2E8F0;
+}
+
+/* Botones */
+
+.stButton button {
+
+    background-color: #2563EB;
+
+    color: white;
+
+    border-radius: 10px;
+
+    border: none;
+}
+
+.stButton button:hover {
+
+    background-color: #1D4ED8;
+}
+
+/* Alertas */
+
+.stAlert {
+
+    border-radius: 15px;
+}
+
+/* Gráficos */
+
+.js-plotly-plot {
+
+    border-radius: 20px;
+
+    background-color: white;
+}
